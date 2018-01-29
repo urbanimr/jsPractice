@@ -1,0 +1,11 @@
+p {
+	color: darksalmon;
+	font-stretch: expanded;
+	font-family: "Apple Braille", Arial;
+	background-color: beige;
+
+}
+
+	.menu{
+	display: inline-block;
+}
