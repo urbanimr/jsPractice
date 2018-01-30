@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mój pierwszy skrypt jawa script</title>
+</head>
+<body>
+<script>
+    var drink = ' napoju energetycznego';
+    var lirycs = '';
+    var cans = 199;
+
+    while (cans >0) {
+        lirycs = lirycs + cans + ' puszek ' + drink + ' stoi przy ścianie <br>';
+        lirycs = lirycs + cans + ' puszek ' + drink + ' <br>';
+        lirycs = lirycs + ' Weź jedną i podaj dalej <br>';
+
+        if (cans > 0 ){
+            lirycs = lirycs + (cans - 1) + ' puszek ' + drink + ' stoi przy ścianie <br>';
+        }
+        else {
+            lirycs = lirycs + ' żadna puszka ' + drink + ' już nie stoi przy ścianie <br>';
+        }
+        cans = cans - 1;
+    }
+
+document.write(lirycs);
+
+
+</script>
+
+</body>
+</html>
