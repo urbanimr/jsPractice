@@ -27,8 +27,11 @@ function computeDistance(startCoords, destCoords) {
     var destLatRads = degreesToRadians(destCoords.latitude);
     var destLongRads = degreesToRadians(destCoords.longitude);
 
-    var Radius = 6371
-    
+    var Radius = 6371;
+    var distance = Math.acos(Math.sin(startLatRads)* Math.sin(destLatRads) + Math.cos(startLatRads)*Math.cos(destLatRads) *
+    Math.cos(startLongRads - destLongRads))*Radius;
+
+    return distance;
 }
 
 

@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c28947a-a06e-46c3-909b-2a198e7251d1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/geolocationAPI/myLoc.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/geolocationAPI/myLoc.js" afterPath="$PROJECT_DIR$/geolocationAPI/myLoc.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -97,8 +97,8 @@
       <file leaf-file-name="myLoc.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/geolocationAPI/myLoc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            <state relative-caret-position="343">
+              <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -243,12 +243,12 @@
       <workItem from="1517255212270" duration="11887000" />
       <workItem from="1517438659920" duration="416000" />
       <workItem from="1517439390625" duration="12000" />
-      <workItem from="1517746350818" duration="12798000" />
+      <workItem from="1517746350818" duration="13170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25113000" />
+    <option name="totallyTimeSpent" value="25485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -556,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/geolocationAPI/myLoc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        <state relative-caret-position="343">
+          <caret line="23" column="24" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="24" />
           <folding />
         </state>
       </provider>
