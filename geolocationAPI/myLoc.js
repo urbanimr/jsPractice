@@ -1,5 +1,12 @@
 window.onload = getMyLocation;
 
+var ourCoords = {
+    latitude: 50.288962,
+    longitude: 18.659609
+};
+
+
+
 function getMyLocation() {
     if (navigator.geolocation){
         navigator.geolocation.getCurrentPosition(displayLocation);
@@ -15,7 +22,10 @@ function displayLocation(position) {
 
     var div = document.getElementById('location');
     div.innerHTML = 'Jesteś na szerokości '+ latitude +' długości '+longitude;
-    
+
+    var km = computeDistance(position.coords, ourCoords);
+    var distance = document.getElementById('distance');
+    distance.innerHTML = 'Jesteś ' + km + ' km od siedziby Helionu';
 
 
 }
