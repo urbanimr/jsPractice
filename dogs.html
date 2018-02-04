@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Cwiczenia z psami</title>
+
+    <script>
+    function init() {
+
+
+        function dogsAge(age) {
+            return age*7;
+        }
+
+        var myDogsAge = dogsAge(4);
+        //alert(myDogsAge);
+
+
+        var fido = {
+            name: 'fido',
+            weight: 34,
+            breed: 'kundel',
+            loves: ['spacery', 'aportowanie piłki']
+        };
+
+        var prop;
+        for (prop in fido) {
+            alert('Fido ma właściwość: ' + prop + ' o wartości: ' + fido[prop]);
+        }
+
+        var likes = fido.loves;
+        var likesString = 'Fido lubi: ';
+
+        for(var i = 0; i < likes.length; i++){
+            likesString += ' ' + likes[i];
+        }
+        alert(likesString);
+
+    }
+    window.onload = init;
+    </script>
+</head>
+<body>
+
+</body>
+</html>

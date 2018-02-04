@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Obiekty filmowe</title>
+
+    <script>
+        function init() {
+
+            var movie1 = {
+                title: 'skanazy',
+                genre: 'kryminał',
+                rating: 3,
+                showtimes: ['15.00', '19.00']
+
+            };
+
+            var movie2 = {
+                title: 'Robot',
+                genre: 'si-fi',
+                rating: 4,
+                showTimes: ['12:00', '14:00']
+            };
+            
+            
+            function getTimeFromString(timeString) {
+                var theTime = new  Date();
+                var time = timeString.match(/(\d+)(?::(\d\d))?/);
+                theTime.setHours(parseInt(timeString[1]));
+                theTime.setMinutes(parseInt(timeString[2]));
+
+                return theTime.getTime();
+            }
+
+            function getNextShowing(movie) {
+                var now = new  Date().getTime();
+
+                for(var i = 0; i < movie.showTimes.length;i++ ){
+                    var showTime = getTimeFromString(movie.showTimes[i]);
+
+                    if((showTime - now) > 0){
+                        return 'Następny seans filmu ' + movie.title +' zaczyna się o: '+ movie.showTimes[i];
+
+                    }
+                }
+                return null;
+            }
+
+            
+
+
+        }
+
+
+
+        window.onload = init;
+    </script>
+</head>
+<body>
+
+</body>
+</html>
