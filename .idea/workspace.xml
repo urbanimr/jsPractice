@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c28947a-a06e-46c3-909b-2a198e7251d1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/dogs.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/playlistStore.js" afterPath="$PROJECT_DIR$/playlistStore.js" />
+      <change beforePath="$PROJECT_DIR$/objects/movie.html" afterPath="$PROJECT_DIR$/objects/movie.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,8 +86,8 @@
       <file leaf-file-name="movie.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/objects/movie.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+            <state relative-caret-position="622">
+              <caret line="76" column="28" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="76" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -218,12 +216,12 @@
       <workItem from="1517255212270" duration="11887000" />
       <workItem from="1517438659920" duration="416000" />
       <workItem from="1517439390625" duration="12000" />
-      <workItem from="1517746350818" duration="7768000" />
+      <workItem from="1517746350818" duration="9134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20083000" />
+    <option name="totallyTimeSpent" value="21449000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -515,8 +513,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/objects/movie.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        <state relative-caret-position="622">
+          <caret line="76" column="28" lean-forward="true" selection-start-line="64" selection-start-column="12" selection-end-line="76" selection-end-column="28" />
           <folding />
         </state>
       </provider>
