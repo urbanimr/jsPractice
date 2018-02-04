@@ -63,11 +63,34 @@
             }
 
 
+            function Movie(title, genre, rating, showtimes) {
+                this.title = title;
+                this.genre = genre;
+                this.rating = rating;
+                this.showtimes = showtimes;
+
+                this.getNextShowing = function () {
+                    var now = new Date().getTime();
+                    for (var i = 0; i < this.showtimes.length; i++){
+                        var showTime = getTimeFromString(this.showtimes[i])
+                        if ((showTime - now) >0){
+                            return 'Następny seans filmu ' + this.title + ' zaczyna się o: '+ this.showtimes[i];
+                        }
+                    }
+                    
+                }
+
+            }
+
+
 
             var nextShowing = movie1.getNextShowing();
             alert(nextShowing);
             nextShowing = movie2.getNextShowing();
             alert(nextShowing);
+
+            var movie3 = new Movie('a co to', 'komedia', 4, ['10:00', '22:55']);
+            alert(movie3.getNextShowing());
 
 
 
