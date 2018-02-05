@@ -34,7 +34,7 @@ function displayLocation(position) {
     var distance = document.getElementById('distance');
     distance.innerHTML = 'Jesteś ' + km + ' km od siedziby Helionu';
 
-
+    showMap(position.coords);
 }
 
 
