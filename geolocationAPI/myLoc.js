@@ -9,18 +9,13 @@ var map;
 
 
 
-
-
-
-
-
 function getMyLocation() {
     if (navigator.geolocation){
         navigator.geolocation.getCurrentPosition(displayLocation);
     } else {
         alert('brak wsparcia');
     }
-    
+
 }
 
 function displayLocation(position) {
@@ -34,7 +29,23 @@ function displayLocation(position) {
     var distance = document.getElementById('distance');
     distance.innerHTML = 'Jesteś ' + km + ' km od siedziby Helionu';
 
-    showMap(position.coords);
+
+
+    function initMap() {
+        var uluru = {lat: latitude, lng: longitude};
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+            zoom: 15,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+
+    }
+
+    initMap();
 }
 
 
@@ -57,16 +68,3 @@ function degreesToRadians(degrees) {
     return radians;
 }
 
-
-function showMap(coords) {
-    var googleLatAndLong = new  google.maps.LatLng(coords.latitude, coords.longitude);
-    var mapOptions = {
-        zoom: 10,
-        center: googleLatAndLong,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-    var mapDiv = document.getElementById('map');
-    map = new google.maps.Map(mapDiv, mapOptions);
-
-
-}
