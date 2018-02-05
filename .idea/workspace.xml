@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8c28947a-a06e-46c3-909b-2a198e7251d1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/geolocationAPI/myLoc.js" afterPath="$PROJECT_DIR$/geolocationAPI/myLoc.js" />
+      <change beforePath="$PROJECT_DIR$/geolocationAPI/whereIam.html" afterPath="$PROJECT_DIR$/geolocationAPI/whereIam.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -86,8 +87,8 @@
       <file leaf-file-name="whereIam.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/geolocationAPI/whereIam.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+            <state relative-caret-position="255">
+              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -96,8 +97,8 @@
       <file leaf-file-name="myLoc.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/geolocationAPI/myLoc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="68" lean-forward="false" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+            <state relative-caret-position="731">
+              <caret line="68" column="50" lean-forward="false" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -155,7 +156,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1780" />
+    <option name="y" value="-157" />
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -242,15 +245,15 @@
       <workItem from="1517255212270" duration="11887000" />
       <workItem from="1517438659920" duration="416000" />
       <workItem from="1517439390625" duration="12000" />
-      <workItem from="1517746350818" duration="13648000" />
+      <workItem from="1517746350818" duration="15986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25963000" />
+    <option name="totallyTimeSpent" value="28301000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="-1780" y="-157" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -280,7 +283,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -547,16 +552,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/geolocationAPI/whereIam.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="53" lean-forward="false" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        <state relative-caret-position="255">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/geolocationAPI/myLoc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="68" lean-forward="false" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+        <state relative-caret-position="731">
+          <caret line="68" column="50" lean-forward="false" selection-start-line="68" selection-start-column="50" selection-end-line="68" selection-end-column="50" />
           <folding />
         </state>
       </provider>
