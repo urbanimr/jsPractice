@@ -24,6 +24,7 @@ function displayLocation(position) {
 
     var div = document.getElementById('location');
     div.innerHTML = 'Jesteś na szerokości '+ latitude +' długości '+longitude;
+    div.innerHTML += ' (z dokładnością do ' + position.coords.accuracy + ' m.)'
 
     var km = computeDistance(position.coords, ourCoords);
     var distance = document.getElementById('distance');
