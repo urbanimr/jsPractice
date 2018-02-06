@@ -6,6 +6,7 @@ var ourCoords = {
 };
 
 var map;
+var watchId = null;
 
 
 
@@ -18,6 +19,19 @@ function getMyLocation() {
         clearWatchButton.onclick = clearWatch;
     } else {
         alert('brak wsparcia');
+    }
+
+}
+
+function watchLocation() {
+    watchId = navigator.geolocation.watchPosition(displayLocation);
+    
+}
+
+function clearWatch() {
+    if (watchId){
+        navigator.geolocation.clearWatch(watchId);
+        watchId = null;
     }
 
 }
