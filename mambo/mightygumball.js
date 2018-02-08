@@ -23,9 +23,10 @@ function init() {
     request.open('GET', url);
     request.onload = function () {
         if(request.status == 200){
-            
+            updateSales(request.responseText);
         }
-    }
+    };
+    request.send(null);
 
     function updateSales(responseText) {
         var salesDiv = document.getElementById('sales');
