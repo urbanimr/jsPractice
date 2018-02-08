@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c28947a-a06e-46c3-909b-2a198e7251d1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/geolocationAPI/myLoc.js" afterPath="$PROJECT_DIR$/geolocationAPI/myLoc.js" />
       <change beforePath="$PROJECT_DIR$/geolocationAPI_watch/myLoc.js" afterPath="$PROJECT_DIR$/geolocationAPI_watch/myLoc.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,91 +14,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index1.html">
+      <file leaf-file-name="whereIam.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/geolocationAPI_watch/whereIam.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="20" lean-forward="false" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index2.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Planets.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Planets.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="playlistStore.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playlistStore.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dogs.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dogs.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movie.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/objects/movie.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="myLoc.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/geolocationAPI/myLoc.js">
+        <entry file="file://$PROJECT_DIR$/geolocationAPI_watch/myLoc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+            <state relative-caret-position="1314">
+              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="myLoc.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/geolocationAPI_watch/myLoc.js">
+        <entry file="file://$PROJECT_DIR$/geolocationAPI/myLoc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="playlist.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/playlist.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="10" lean-forward="false" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="213">
+              <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -143,9 +84,9 @@
         <option value="$PROJECT_DIR$/playlistStore.js" />
         <option value="$PROJECT_DIR$/dogs.html" />
         <option value="$PROJECT_DIR$/objects/movie.html" />
-        <option value="$PROJECT_DIR$/geolocationAPI/myLoc.js" />
         <option value="$PROJECT_DIR$/geolocationAPI/whereIam.html" />
         <option value="$PROJECT_DIR$/geolocationAPI_watch/myLoc.js" />
+        <option value="$PROJECT_DIR$/geolocationAPI/myLoc.js" />
       </list>
     </option>
   </component>
@@ -156,7 +97,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -251,15 +192,15 @@
       <workItem from="1517255212270" duration="11887000" />
       <workItem from="1517438659920" duration="416000" />
       <workItem from="1517439390625" duration="12000" />
-      <workItem from="1517746350818" duration="24313000" />
+      <workItem from="1517746350818" duration="26062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36628000" />
+    <option name="totallyTimeSpent" value="38377000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -540,6 +481,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/objects/movie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/playlist.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -548,10 +497,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/objects/movie.html">
+    <entry file="file://$PROJECT_DIR$/geolocationAPI_watch/whereIam.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="98" column="0" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geolocationAPI_watch/myLoc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1314">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -566,16 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/geolocationAPI/myLoc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geolocationAPI_watch/myLoc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        <state relative-caret-position="213">
+          <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
           <folding />
         </state>
       </provider>

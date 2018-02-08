@@ -10,6 +10,10 @@ var map;
 
 
 function getMyLocation() {
+    var navigationOptions = {
+        enableHighAccuracy: true,
+        maximumAge: 60000
+    }
     if (navigator.geolocation){
         navigator.geolocation.getCurrentPosition(displayLocation);
     } else {

@@ -84,6 +84,7 @@ function displayLocation(position) {
 
     }
 
+
     initMap();
 }
 
