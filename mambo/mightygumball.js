@@ -30,7 +30,16 @@ function init() {
 
     function updateSales(responseText) {
         var salesDiv = document.getElementById('sales');
-        salesDiv.innerHTML = responseText;
+        //salesDiv.innerHTML = responseText;
+        var sales = JSON.parse(responseText);
+
+        for (i = 0; i<sales.length; i++){
+            var sale = sales[i];
+            var div = document.createElement('div');
+            div.setAttribute('class', 'saleitem');
+            div.innerHTML = sale.name + ' - liczba sprzedanych gum: ' + sale.sales;
+            salesDiv.appendChild(div);
+        }
     }
     
 }
