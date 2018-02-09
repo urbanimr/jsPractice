@@ -40,6 +40,7 @@ function init() {
             div.innerHTML = sale.name + ' - liczba sprzedanych gum: ' + sale.sales;
             salesDiv.appendChild(div);
         }
+        
     }
     
 }
